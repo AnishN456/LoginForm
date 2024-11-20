@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.container{
+    width: 400px;
+    margin: 100px auto;
+    
+}
+
+.container .card{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+}
+
+.card h3{
+    padding: 30px 30px 10px;
+    font-family: Arial;
+    font-weight: medium;
+    font-size: 18px;
+    color: rgb(0, 157, 255);
+}
+
+
+.card .username{
+    padding: 10px 30px;
+}
+
+.card .password{
+    padding: 10px 30px;
+}
+
+.card .submit{
+    padding: 10px 30px;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px 8px;
+    font-family: Arial;
+}
+
+input[type="password"]{
+    width: 100%;
+    padding: 10px 8px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 10px 5px;
+    border: 0;
+    background-color: darkgreen;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(0,100,0,0.4);
+}
